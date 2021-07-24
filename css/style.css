@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #fff;
+}
+/* navbar */
+.navbar-light .navbar-nav .nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #272727;
+}
+.nav-icon {
+  font-size: 30px;
+  color: #272727;
+}
+.header-card-body {
+  background: rgba(247, 248, 250, 0.8);
+  border-radius: 2px;
+}
+.header-card-title {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 58px;
+  color: #1d252c;
+}
+.header-card-info {
+  font-size: 18px;
+  line-height: 26px;
+  color: #1d252c;
+}
+.header-card-button {
+  background: #56b280;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 20.6452px;
+  line-height: 24px;
+  color: #fff;
+}
+/* products */
+.section-title {
+  font-weight: 500;
+  font-size: 40px;
+  color: #0b254b;
+}
+.section-info {
+  font-weight: 500;
+  font-size: 18px;
+  color: #5e6e89;
+}
+.card {
+  border-color: transparent;
+}
+.card-bg {
+  filter: drop-shadow(0px 4px 24px rgba(123, 123, 123, 0.15));
+}
+.card-bg > img {
+  background-color: #f7f8fa;
+}
+/* clean */
+.clean-section {
+  background: #f7f8fa;
+}
+.clean-section-title {
+  font-weight: 500;
+  font-size: 40px;
+  color: #1d252c;
+}
+.clean-section-info {
+  font-size: 16px;
+  line-height: 23px;
+  color: #56b280;
+}
+.clean-section-list li {
+  list-style: none;
+}
+.clean-section-list li span {
+  font-weight: 500;
+  line-height: 29px;
+}
+.clean-section-list li::before {
+  content: url("../images/check-icon.png");
+  margin-right: 10px;
+}
+.learn-btn {
+  background: #56b280;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 20.6452px;
+  line-height: 24px;
+}
+.img-thumbnail {
+  border-color: transparent;
+}
+/* testimonial */
+.testimonial {
+  background: rgba(86, 178, 128, 0.1);
+}
+.testimonial-title {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 29px;
+}
+/* footer */
+.footer-list .list-group-item {
+  background-color: transparent;
+  color: #fff;
+  border: 0;
+}
+/* --------- Media Quries ------------ */
+/* Mobile devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .header-card-img {
+    height: 50vh;
+    object-fit: cover;
+    object-position: center;
+  }
+  .header-card-title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .header-card-info {
+    line-height: 21px;
+  }
+  .header-card-button {
+    font-weight: 400;
+    font-size: 18.6452px;
+    line-height: 18px;
+  }
+}
